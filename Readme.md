@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Sviatlana Kaitanava](https://up.htmlacademy.ru/adaptive/15/user/3924).
-* Наставник: [Максим Фарига] (https://htmlacademy.ru/profile/maximfariga).
+* Наставник: [Максим Фарига](https://htmlacademy.ru/profile/maximfariga).
 
 ---
 
