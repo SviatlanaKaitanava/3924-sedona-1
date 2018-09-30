@@ -7,7 +7,7 @@
   <body>
   <header class="page-header">
     <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">Закрыть меню</button>
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Закрыть/Открыть</span></button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
@@ -31,91 +31,108 @@
     </header>
     <main class="page-form">
       <h1 class="visually-hidden">Оставьте свой отзыв</h1>
-      <header class="page-form__heading heading">
-        <p class="heading__title">Оставьте свой отзыв</p>
-        <p class="heading__text">Помогите нашим отелям тать лучше!</p>
-        <p class="heading__text">Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
-      </header>
+      <section class="picture-title">
+        <img src="http://placehold.it/150x100" width="230" height="40" alt="Седона">
+      </section>
+      <section class="page-form__topic topic-page">
+        <p class="topic-page__text--big">Оставьте свой отзыв</p>
+        <p class="topic-page__text--small">Помогите нашим отелям тать лучше!</p>
+        <p class="topic-page__text--small">Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      </section>
       <form class="feedback" method="get" action="https://echo.htmlacademy.ru">
-        <fieldset class="full-name">
-          <legend>Представьтесь:</legend>
-          <div class="full-name__first_name">
-            <label class="full-name__text">Имя*:</label>
-            <input type="text" name="first_name" value="Петр">
+        <fieldset class="feedback__item full-name">
+          <legend class="feedback__text--big">Представьтесь:</legend>
+          <div class="full-name__item">
+            <label class="full-name__text" for="first-name">Имя*:</label>
+            <input id="first-name" type="text" name="first-name" value="Петр">
           </div>
-          <div class="full-name__last-name">
-            <label class="full-name__text">Фамилия*:</label>
-            <input type="text" name="last-name" value="Иванов">
+          <div class="full-name__item">
+            <label class="full-name__text" for="last-name">Фамилия*:</label>
+            <input id="last-name" type="text" name="last-name" value="Иванов">
           </div>
-          <div class="full-name__patronymic">
-            <label class="full-name__text">Отчество:</label>
-            <input type="text" name="patronymic" value="Александрович">
+          <div class="full-name__item">
+            <label class="full-name__text" for="patronymic">Отчество:</label>
+            <input id="patronymic" type="text" name="patronymic" value="Александрович">
           </div>
         </fieldset>
-        <fieldset class="contacts">
-          <legend>Контактная информация:</legend>
+        <fieldset class="feedback__item contacts">
+          <legend class="feedback__text--big">Контактная информация:</legend>
           <div class="contacts__phone">
-            <label class="contacts__text">Контактный телефон*:</label>
-            <input type="tel" name="phone" value="Введите телефон">
+            <label class="contacts__text" for="phone">Контактный телефон*:</label>
+            <input id="phone" type="tel" name="phone" value="Введите телефон">
           </div>
           <div class="contacts__email">
-            <label class="contacts__text">Электронная почта*:</label>
-            <input type="text" name="email" value="Введите e-mail">
+            <label class="contacts__text" for="email">Электронная почта*:</label>
+            <input id="email" type="email" name="email" value="Введите e-mail">
           </div>
         </fieldset>
-        <fieldset class="impressions">
-          <legend>Ваше общее впечатление:</legend>
-          <ul class="impressions__list">
-            <li class="impressions__item">
-              <input class="visually-hidden" type="radio" name="positive" id="impressions-positive">
-              <label for="impressions-positive">Скорее положительное</label>
+        <fieldset class="feedback__item box-select">
+          <legend class="feedback__text--big">Ваше общее впечатление:</legend>
+          <ul class="box-select__list">
+            <li class="box-select__item">
+              <label class="box-select__radio">
+                <input class="visually-hidden" type="radio" name="mark" checked>
+                <span class="box-select__text">Скорее положительное</span>
+              </label>
             </li>
-            <li class="impressions__item">
-              <input class="visually-hidden" type="radio" name="negative" id="impressions-negative">
-              <label for="impressions-negative">Скорее отрицательное</label>
+            <li class="box-select__item">
+              <label class="box-select__radio">
+                <input class="visually-hidden" type="radio" name="mark">
+                <span class="box-select__text">Скорее отрицательное</span>
+              </label>
             </li>
-            <li class="impressions__item">
-              <input class="visually-hidden" type="radio" name="difficult" id="impressions-difficult">
-              <label for="impressions-difficult">Затрудняюсь ответить</label>
-            </li>
-          </ul>
-        </fieldset>
-        <fieldset class="landmark">
-          <legend>Посещенные достопримечательности:</legend>
-          <ul class="landmark__list">
-            <li class="landmark__item">
-              <input class="visually-hidden landmark__item__devils-bridge" type="checkbox" name="devils-bridge" id="impressions-devils-bridge" checked>
-              <label for="impressions-devils-bridge">Мост Дьявола</label>
-            </li>
-            <li class="landmark__item">
-              <input class="visually-hidden landmark__item__mountain-bell" type="checkbox" name="mountain-bell" id="impressions-mountain-bell" checked>
-              <label for="impressions-mountain-bell">Гора-Колокол</label>
-            </li>
-            <li class="landmark__item">
-              <input class="visually-hidden landmark__item__slide-park" type="checkbox" name="slide-park" id="impressions-slide-park" checked>
-              <label for="impressions-slide-park">Слайд-парк</label>
-            </li>
-            <li class="landmark__item">
-              <input class="visually-hidden landmark__item__red-rock" type="checkbox" name="red-rock" id="impressions-red-rock">
-              <label for="impressions-red-rock">Красные скалы</label>
+            <li class="box-select__item">
+              <label class="box-select__radio">
+                <input class="visually-hidden" type="radio" name="mark">
+                <span class="box-select__text">Затрудняюсь ответить</span>
+              </label>
             </li>
           </ul>
         </fieldset>
-        <fieldset class="emotions">
-          <legend>Опишите свои эмоции:</legend>
-          <textarea name="admiration" rows="5">Опишите подробно все свои восторги</textarea>
+        <fieldset class="feedback__item box-select">
+          <legend class="feedback__text--big">Посещенные достопримечательности:</legend>
+          <ul class="box-select__list">
+            <li class="box-select__item">
+              <label class="box-select__checkbox">
+                <input class="visually-hidden" type="checkbox" name="devils-bridge" checked>
+                <span class="box-select__text">Мост Дьявола</span>
+              </label>
+            </li>
+            <li class="box-select__item">
+              <label class="box-select__checkbox">
+                <input class="visually-hidden" type="checkbox" name="mountain-bell" checked>
+                <span class="box-select__text">Гора-Колокол</span>
+              </label>
+            </li>
+            <li class="box-select__item">
+              <label class="box-select__checkbox">
+                <input class="visually-hidden" type="checkbox" name="slide-park" checked>
+                <span class="box-select__text">Слайд-парк</span>
+              </label>
+            </li>
+            <li class="box-select__item">
+              <label class="box-select__checkbox">
+                <input class="visually-hidden" type="checkbox" name="red-rock">
+                <span class="box-select__text">Красные скалы</span>
+              </label>
+            </li>
+          </ul>
         </fieldset>
-        <button type="submit">Отправить отзыв</button>
+        <fieldset class="feedback__item emotions">
+          <legend class="feedback__text--big">Опишите свои эмоции:</legend>
+          <textarea class="emotions__item" name="admiration" rows="5">Опишите подробно все свои восторги</textarea>
+        </fieldset>
+        <button class="emotions__button" type="submit">Отправить отзыв</button>
       </form>
-      <section class="modal-warning">
-        <h2 class="modal-warning__title">Что-то пошло не так!</h2>
-        <p class="modal-warning__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
-        <button class="modal-warning__button" type="button">Ок</button>
+      <section class="popup">
+        <h2 class="popup__title">Что-то пошло не так!</h2>
+        <p class="popup__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+        <button class="popup__button--narrow" type="button">Ок</button>
       </section>
-      <section class="modal-success">
-        <h2 class="modal-success__title">Ваш отзыв отправлен!</h2>
-        <p class="modal-success__text">Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.</p>
-        <button class="modal-success__button" type="button">Закрыть окно</button>
+      <section class="popup">
+        <h2 class="popup__title">Ваш отзыв отправлен!</h2>
+        <p class="popup__text">Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.</p>
+        <button class="popup__button--background" type="button">Закрыть окно</button>
       </section>
     </main>
     <footer class="page-footer">
