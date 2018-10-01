@@ -35,39 +35,39 @@
         <img src="http://placehold.it/150x100" width="230" height="40" alt="Седона">
       </section>
       <section class="page-form__topic topic-page">
-        <p class="topic-page__text--big">Оставьте свой отзыв</p>
-        <p class="topic-page__text--small">Помогите нашим отелям тать лучше!</p>
-        <p class="topic-page__text--small">Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+        <p class="topic-page__text topic-page__text--big">Оставьте свой отзыв</p>
+        <p class="topic-page__text topic-page__text--small">Помогите нашим отелям тать лучше!</p>
+        <p class="topic-page__text topic-page__text--small">Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
       </section>
       <form class="feedback" method="get" action="https://echo.htmlacademy.ru">
         <fieldset class="feedback__item full-name">
-          <legend class="feedback__text--big">Представьтесь:</legend>
+          <legend class="feedback__title">Представьтесь:</legend>
           <div class="full-name__item">
             <label class="full-name__text" for="first-name">Имя*:</label>
-            <input id="first-name" type="text" name="first-name" value="Петр">
+            <input class="full-name__field" id="first-name" type="text" name="first-name" placeholder="Петр">
           </div>
           <div class="full-name__item">
             <label class="full-name__text" for="last-name">Фамилия*:</label>
-            <input id="last-name" type="text" name="last-name" value="Иванов">
+            <input class="full-name__field" id="last-name" type="text" name="last-name" placeholder="Иванов">
           </div>
           <div class="full-name__item">
             <label class="full-name__text" for="patronymic">Отчество:</label>
-            <input id="patronymic" type="text" name="patronymic" value="Александрович">
+            <input class="full-name__field" id="patronymic" type="text" name="patronymic" placeholder="Александрович">
           </div>
         </fieldset>
         <fieldset class="feedback__item contacts">
-          <legend class="feedback__text--big">Контактная информация:</legend>
+          <legend class="feedback__title">Контактная информация:</legend>
           <div class="contacts__phone">
             <label class="contacts__text" for="phone">Контактный телефон*:</label>
-            <input id="phone" type="tel" name="phone" value="Введите телефон">
+            <input class="contacts__field" id="phone" type="tel" name="phone" placeholder="Введите телефон">
           </div>
           <div class="contacts__email">
             <label class="contacts__text" for="email">Электронная почта*:</label>
-            <input id="email" type="email" name="email" value="Введите e-mail">
+            <input class="contacts__field" id="email" type="email" name="email" placeholder="Введите e-mail">
           </div>
         </fieldset>
         <fieldset class="feedback__item box-select">
-          <legend class="feedback__text--big">Ваше общее впечатление:</legend>
+          <legend class="feedback__title">Ваше общее впечатление:</legend>
           <ul class="box-select__list">
             <li class="box-select__item">
               <label class="box-select__radio">
@@ -90,7 +90,7 @@
           </ul>
         </fieldset>
         <fieldset class="feedback__item box-select">
-          <legend class="feedback__text--big">Посещенные достопримечательности:</legend>
+          <legend class="feedback__title">Посещенные достопримечательности:</legend>
           <ul class="box-select__list">
             <li class="box-select__item">
               <label class="box-select__checkbox">
@@ -119,20 +119,22 @@
           </ul>
         </fieldset>
         <fieldset class="feedback__item emotions">
-          <legend class="feedback__text--big">Опишите свои эмоции:</legend>
-          <textarea class="emotions__item" name="admiration" rows="5">Опишите подробно все свои восторги</textarea>
+          <legend class="feedback__title">Опишите свои эмоции:</legend>
+          <textarea class="emotions__item" name="admiration" rows="5" placeholder="Опишите подробно все свои восторги"></textarea>
         </fieldset>
-        <button class="emotions__button" type="submit">Отправить отзыв</button>
+        <button class="feedback__button" type="submit">Отправить отзыв</button>
       </form>
       <section class="popup">
         <h2 class="popup__title">Что-то пошло не так!</h2>
         <p class="popup__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
-        <button class="popup__button--narrow" type="button">Ок</button>
+        <button class="popup__button popup__button--narrow" type="button">Ок</button>
       </section>
       <section class="popup">
         <h2 class="popup__title">Ваш отзыв отправлен!</h2>
         <p class="popup__text">Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.</p>
-        <button class="popup__button--background" type="button">Закрыть окно</button>
+        <div class="popup__wrap-button">
+          <button class="popup__button" type="button">Закрыть окно</button>
+        </div>
       </section>
     </main>
     <footer class="page-footer">
