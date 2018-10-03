@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+  <header class="page-header">
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Закрыть/Открыть</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item site-list__item--active">
+            <a>Фото и видео</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">Форма отзыва</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <a class="page-header__logo" href="index.html">
+      <img class="page-header__logo-image" src="http://placehold.it/150x100" width="102" height="83" alt="Седона">
+    </a>
+    </header>
+    <main class="page-photo">
+      <h1 class="visually-hidden">Фото и видео</h1>
+      <section class="picture-title">
+        <img src="http://placehold.it/150x100" width="230" height="40" alt="Седона">
+      </section>
+      <section class="page-photo__topic topic-page">
+        <p class="topic-page__title">Фото и видео</p>
+        <p class="topic-page__text">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+      </section>
+      <article class="page-photo__item">
+        <a class="page-photo__image" href="#">
+          <img src="http://placehold.it/150x100" width="280" height="280" alt="Неродные просторы">
+        </a>
+        <p class="page-photo__image-name">Неродные просторы</p>
+        <p class="page-photo__image-author">Автор фото: <span class="page-photo__author-name">Борис</span></p>
+        <button class="page-photo__like" type="button"><span class="page-photo__image-rating">1350</span></button>
+      </article>
+      <article class="page-photo__item">
+        <a class="page-photo__image" href="#">
+          <img src="http://placehold.it/150x100" width="280" height="280" alt="Местная растительность">
+        </a>
+        <p class="page-photo__image-name">Местная растительность</p>
+        <p class="page-photo__image-author">Автор фото: <span class="page-photo__author-name">Сергей</span></p>
+        <button class="page-photo__like" type="button"><span class="page-photo__image-rating">143</span></button>
+      </article>
+      <article class="page-photo__item">
+        <a class="page-photo__image" href="#">
+          <img src="http://placehold.it/150x100" width="280" height="280" alt="Дорога на север">
+        </a>
+        <p class="page-photo__image-name">Дорога на север</p>
+        <p class="page-photo__image-author">Автор фото: <span class="page-photo__author-name">Петр</span></p>
+        <button class="page-photo__like" type="button"><span class="page-photo__image-rating">96</span></button>
+      </article>
+      <article class="page-photo__item">
+        <a class="page-photo__image" href="#">
+          <img src="http://placehold.it/150x100" width="280" height="280" alt="Мост дьявола">
+        </a>
+        <p class="page-photo__image-name">Мост дьявола</p>
+        <p class="page-photo__image-author">Автор фото: <span class="page-photo__author-name">Антон</span></p>
+        <button class="page-photo__like" type="button"><span class="page-photo__image-rating">254</span></button>
+      </article>
+      <section class="page-photo__box-video">
+        <header class="page-photo__heading heading">
+          <p class="heading__title">Все еще сомневаетесь?</p>
+          <p class="heading__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+        </header>
+        <article class="page-photo__video presentation">
+          <div class="presentation__image">
+            <img src="http://placehold.it/150x100" width="320" height="200" alt="Презентация Седоны">
+          </div>
+          <div class="presentation__control-panel">
+            <div class="presentation__scroll-panel">
+              <input class="presentation__scroll" type="range">
+            </div>
+            <div class="presentation__button-panel">
+              <button class="presentation__button button-repeat" type="button">
+                <p class="visually-hidden">Повторить</p>
+              </button>
+              <button class="presentation__button button-cc" type="button">
+                <p class="visually-hidden">Субтитры</p>
+              </button>
+              <button class="presentation__button button-maximize" type="button">
+                <p class="visually-hidden">Развернуть</p>
+              </button>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <p class="page-footer__hash">#visitsedona</p>
+      <ul class="page-footer__social-list social-list">
+        <li class="social-list__item">
+          <a class="social-list__link social-list__link--twitter" href="#">
+            <span class="visually-hidden">Twitter</span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link social-list__link--facebook" href="#">
+            <span class="visually-hidden">Facebook</span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link social-list__link--youtube" href="#">
+            <span class="visually-hidden">YouTube</span>
+          </a>
+        </li>
+      </ul>
+      <div class="page-footer__copyright copyright">
+        <span class="copyright__text">Разработано</span>
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+      </div>
+    </footer>
+  </body>
+</html>
