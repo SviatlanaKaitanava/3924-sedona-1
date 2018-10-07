@@ -1,0 +1,45 @@
+.popup {
+  padding: 40px 0;
+  border-top: 1px solid #e5e5e5;
+  box-shadow: -10px 10px 20px 0 #dfdfdf;
+  &__title {
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: 700;
+    padding: 0 20px;
+    margin: 0;
+    text-align: center;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 25px 50px;
+    margin: 0;
+    text-align: center;
+  }
+  &__button {
+    border: none;
+    background-color: #81b3d2;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 280px;
+    height: 58px;
+    &--narrow {
+      width: 180px;
+      height: 58px;
+    }
+  }
+  &__wrap-button {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px 0 0 0;
+  }
+}

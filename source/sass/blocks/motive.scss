@@ -1,0 +1,37 @@
+.motive__item {
+  &--blue {
+    background-color: #81b3d2;
+    color: #ffffff;
+    margin: 20px 0 0 0;
+    padding: 53px 20px 25px 20px;
+    text-align: center;
+  }
+  &--city::after {
+    content: "";
+    display: block;
+    background-position: center top;
+    height: 260px;
+    background-image: url("../img/main-city-mobile@1x.jpg");
+  }
+  &--bridge::after {
+    content: "";
+    display: block;
+    background-position: center top;
+    height: 260px;
+    background-image: url("../img/main-bridge-mobile@1x.jpg");
+  }
+  &--gray {
+    background-color: #eeeeee;
+    padding: 30px 20px 0 20px;
+    text-align: center;
+    &:last-child {
+      border:none;
+    }
+  }
+  &--gray::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #d6d6d6;
+    padding-top: 10px;
+  }
+}

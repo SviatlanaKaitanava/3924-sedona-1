@@ -1,0 +1,28 @@
+.main-nav {
+  background-color: #81b3d2;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+  position: relative;
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  &__toggle {
+    background: transparent;
+    background-image: url(../img/icon-cross.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+  }
+}
