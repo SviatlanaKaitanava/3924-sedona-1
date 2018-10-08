@@ -6,14 +6,16 @@
     display: flex;
     align-items: baseline;
   }
+
   &__text {
     font-size: 14px;
     line-height: 26px;
     margin-right: 13px;
   }
+
   &__field {
     width: 100%;
-    font-family: "PT Sans", Arial, sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 18px;
     line-height: 26px;
     font-weight: 700;

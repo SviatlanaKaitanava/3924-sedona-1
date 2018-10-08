@@ -2,21 +2,25 @@
   list-style: none;
   padding: 20px 0 20px 0;
   margin: 0;
+
   &__item {
     padding: 16px 20px 0 69px;
     text-align: left;
+
     &--housing {
       background-image: url("../img/icon-house.svg");
       background-repeat: no-repeat;
       background-position: 8% 8%;
       background-size: 38px 38px;
     }
+
     &--souvenirs {
       background-image: url("../img/icon-gift.svg");
       background-repeat: no-repeat;
       background-position: 8% 8%;
       background-size: 38px 38px;
     }
+
     &--food {
       background-image: url("../img/icon-burger.svg");
       background-repeat: no-repeat;

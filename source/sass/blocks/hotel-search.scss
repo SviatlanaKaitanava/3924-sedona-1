@@ -1,6 +1,7 @@
 .hotel-search {
   padding: 30px 20px 45px 20px;
   text-align: center;
+
   &__name {
     font-size: 21px;
     line-height: 26px;
@@ -8,11 +9,13 @@
     color: #000000;
     margin: 0 0 20px 0;
   }
+
   &__text {
     font-size: 14px;
     line-height: 24px;
     margin: 0;
   }
+
   &__button {
     font-size: 21px;
     line-height: 26px;

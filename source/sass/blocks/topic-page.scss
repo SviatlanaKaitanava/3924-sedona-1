@@ -1,6 +1,7 @@
 .topic-page {
   text-align: center;
   padding-bottom: 15px;
+
   &__title {
     font-size: 18px;
     line-height: 26px;
@@ -9,11 +10,13 @@
     margin: 0;
     padding: 40px 27px 28px 27px;
   }
+
   &__text {
     font-size: 14px;
     line-height: 24px;
     margin: 0;
     padding: 0 25px 8px 25px;
+
     &--line-height {
       line-height: 26px;
     }

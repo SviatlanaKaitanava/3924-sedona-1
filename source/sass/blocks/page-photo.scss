@@ -5,15 +5,18 @@
     font-size: 14px;
     line-height: 24px;
   }
+
   &__image-name {
     font-weight: 700;
     color: #000000;
     margin: 9px 0 0 0;
   }
+
   &__image-author {
     text-transform: none;
     margin: 0;
   }
+
   &__like {
     border: none;
     width: 70px;
@@ -23,9 +26,11 @@
     background-position: left bottom;
     background-color: transparent;
   }
+
   &__image-rating {
     padding-top: 3px;
   }
+
   &__box-video {
     border-top: 1px solid #e5e5e5;
     padding-bottom: 37px;

@@ -1,21 +1,25 @@
 .contacts {
   padding-bottom: 26px;
   margin-top: 15px;
+
   &__phone {
     padding: 0;
     margin: 10px 0 0 0;
   }
+
   &__email {
     padding: 0;
     margin: 0;
   }
+
   &__text {
     font-size: 14px;
     line-height: 26px;
     padding: 0 0 0 20px;
   }
+
   &__field {
-    font-family: "PT Sans", Arial, sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 18px;
     line-height: 26px;
     font-weight: 700;
@@ -27,13 +31,15 @@
     padding: 0 20px 0 21px;
     margin: 7px 0 12px 0;
     background-color: #f2f2f2;
+
     &--phone {
-      background-image: url(../img/icon-phone.svg);
+      background-image: url("../img/icon-phone.svg");
       background-repeat: no-repeat;
       background-position: 93% center;
     }
+
     &--email {
-      background-image: url(../img/icon-mail.svg);
+      background-image: url("../img/icon-mail.svg");
       background-repeat: no-repeat;
       background-position: 93% center;
     }
