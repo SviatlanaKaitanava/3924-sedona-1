@@ -1,30 +1,30 @@
 .social-list {
-  padding: 35px 65px;
+  padding: 35px 5px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+.social-list__item {
+  width: 46px;
+  height: 48px;
+  margin: 0 3px;
+}
 
-  &__item {
-    width: 46px;
-    height: 48px;
+.social-list__link {
+  display: block;
+  background-color: #81b3d2;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 48px;
+
+  &--twitter {
+    background-image: url("../img/icon-twitter.svg");
   }
 
-  &__link {
-    display: block;
-    background-color: #81b3d2;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 48px;
+  &--facebook {
+    background-image: url("../img/icon-facebook.svg");
+  }
 
-    &--twitter {
-      background-image: url("../img/icon-twitter.svg");
-    }
-
-    &--facebook {
-      background-image: url("../img/icon-facebook.svg");
-    }
-
-    &--youtube {
-      background-image: url("../img/icon-youtube.svg");
-    }
+  &--youtube {
+    background-image: url("../img/icon-youtube.svg");
   }
 }

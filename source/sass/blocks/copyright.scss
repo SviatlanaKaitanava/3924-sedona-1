@@ -1,14 +1,13 @@
 .copyright {
-  width: 131px;
   height: 35px;
   margin: 0 auto;
-  background-image: url("../img/logo-htmlacademy.svg");
-  background-repeat: no-repeat;
-  background-position: 100% 50%;
+  display: flex;
+  justify-content: center;
+}
 
-  &__text {
-    font-size: 14px;
-    line-height: 26px;
-    color: #000000;
-  }
+.copyright__text {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  margin-right: 10px;
 }

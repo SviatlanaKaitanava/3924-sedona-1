@@ -1,19 +1,19 @@
 .page-footer {
   background-color: rgba(254, 254, 254, 0.9);
   padding: 40px 20px 20px 20px;
+}
 
-  &__hash {
-    font-size: 21px;
-    line-height: 26px;
-    font-weight: 700;
-    color: #000000;
-    margin: 0;
-    text-align: center;
-  }
+.page-footer__hash {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+  text-align: center;
+}
 
-  &__social-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+.page-footer__social-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }

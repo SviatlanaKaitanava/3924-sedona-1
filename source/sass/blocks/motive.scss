@@ -28,15 +28,15 @@
     padding: 30px 20px 0 20px;
     text-align: center;
 
-    &:last-child {
-      border: none;
+    &::after {
+      content: "";
+      display: block;
+      border-bottom: 1px solid #d6d6d6;
+      padding-top: 10px;
     }
   }
+}
 
-  &--gray::after {
-    content: "";
-    display: block;
-    border-bottom: 1px solid #d6d6d6;
-    padding-top: 10px;
-  }
+.motive:last-child .motive__item--gray::after{
+    border: none;
 }

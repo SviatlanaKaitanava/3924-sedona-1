@@ -1,30 +1,28 @@
 .box-select {
   padding-bottom: 38px;
+}
+.box-select__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-  &__list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+.box-select__item {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: none;
+  margin: 12px 0 0 0;
+  padding: 0 0 17px 78px;
+}
 
-  &__item {
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 700;
-    color: #000000;
-    text-transform: none;
-    margin: 12px 0 0 0;
-    padding: 0 0 0 78px;
-    height: 56px;
-  }
+.box-select__radio {
+  display: block;
+  padding-top: 14px;
+}
 
-  &__radio {
-    display: block;
-    padding-top: 14px;
-  }
-
-  &__checkbox {
-    display: block;
-    padding-top: 8px;
-  }
+.box-select__checkbox {
+  display: block;
+  padding-top: 8px;
 }

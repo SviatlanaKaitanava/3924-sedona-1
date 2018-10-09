@@ -4,18 +4,21 @@
   background-position: center bottom;
   height: 158px;
   padding-top: 52px;
-  padding-left: 44px;
 
   &::after {
     content: "";
     display: block;
-    height: 158px;
+    height: 26px;
     background-image: url("../img/bg-intro-triangle-mobile.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100% auto;
     width: 320px;
-    margin-top: -96px;
-    margin-left: -44px;
+    margin-top: 40px;
   }
+}
+
+.picture-title__img {
+  display: block;
+  margin: 0 auto;
 }

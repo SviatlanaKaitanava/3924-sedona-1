@@ -1,29 +1,25 @@
-.full-name {
-  &__item {
-    width: 280px;
-    height: 58px;
-    margin: 10px 0 20px 0;
-    display: flex;
-    align-items: baseline;
-  }
+.full-name__item {
+  margin: 10px 0 20px 0;
+  display: flex;
+  align-items: baseline;
+}
 
-  &__text {
-    font-size: 14px;
-    line-height: 26px;
-    margin-right: 13px;
-  }
+.full-name__text {
+  font-size: 14px;
+  line-height: 26px;
+  margin-right: 13px;
+}
 
-  &__field {
-    width: 100%;
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 700;
-    color: #000000;
-    text-transform: none;
-    border: none;
-    background-color: #f2f2f2;
-    height: 58px;
-    padding: 0 0 0 21px;
-  }
+.full-name__field {
+  width: 100%;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: none;
+  border: none;
+  background-color: #f2f2f2;
+  height: 58px;
+  padding: 0 0 0 21px;
 }
