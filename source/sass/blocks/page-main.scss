@@ -1,0 +1,24 @@
+.page-main__welcome {
+  background-image: url("../img/text-sedona-index.svg"), url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center, center top;
+  background-size: 90% auto, auto 389px;
+  height: 389px;
+
+  &::before {
+    content: "";
+    display: block;
+    height: 389px;
+    background-image: url("../img/bg-intro-triangle-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+  }
+}
+
+.page-main__maps {
+  background-image: url("../img/bg-map-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 350px;
+}
