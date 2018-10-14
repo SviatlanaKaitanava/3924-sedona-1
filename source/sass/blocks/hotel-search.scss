@@ -27,3 +27,29 @@
   padding: 15px 0 17px 0;
   margin: 32px 0 0 0;
 }
+
+@media (min-width: 768px) {
+  .hotel-search {
+    width: 458px;
+    padding: 55px 0 58px 0;
+    margin: 0 auto;
+  }
+
+  .hotel-search__name {
+    font-size: 30px;
+  }
+
+  .hotel-search__text {
+    margin: 31px 0 42px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hotel-search {
+    padding-bottom: 66px;
+  }
+
+  .hotel-search__button {
+    margin-top: 47px;
+  }
+}

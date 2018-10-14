@@ -45,3 +45,59 @@
 .presentation__image {
   vertical-align: top;
 }
+
+@media (min-width: 768px) {
+  .presentation {
+    padding-top: 37px;
+  }
+
+  .presentation__control-panel {
+    width: 100%;
+    margin-left: 0;
+    margin-top: -93px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .presentation__scroll-panel {
+    padding-left: 90px;
+    height: 93px;
+  }
+
+  .presentation__scroll {
+    width: 390px;
+    margin-top: 26px;
+  }
+
+  .presentation__button-panel {
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 0 34px;
+    margin-top: -93px;
+  }
+
+  .presentation__button {
+    &--cc {
+      margin-left: 465px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .presentation__button-panel {
+    margin-top: -95px;
+    padding-right: 43px;
+  }
+
+  .presentation__scroll {
+    width: 542px;
+    margin-top: 23px;
+  }
+
+  .presentation__button {
+    &--cc {
+      margin-left: 615px;
+    }
+  }
+}

@@ -43,3 +43,49 @@
     background-image: url("../img/icon-mail.svg");
   }
 }
+
+@media (min-width: 768px) {
+  .contacts {
+    margin-top: 23px;
+    margin-bottom: 5px;
+    
+  }
+
+  .contacts__phone {
+    margin: 14px 0 11px 0;
+  }
+
+  .contacts__field {
+    background-position: 97% center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contacts__wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+  }
+
+  .contacts__field {
+    width: 316px;
+    background-position: 94% center;
+  }
+
+  .contacts__text {
+    padding: 0;
+    margin-right: 10px;
+
+    &--none {
+      display: none;
+    }
+  }
+
+  .contacts__phone {
+    margin: 0;
+  }
+
+  .contacts__email {
+    margin-left: -1px;
+  }
+}

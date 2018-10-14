@@ -22,3 +22,35 @@
     line-height: 26px;
   }
 }
+
+@media (min-width: 768px) {
+  .topic-page {
+    padding: 50px;
+  }
+
+  .topic-page__title {
+    font-size: 30px;
+    line-height: 26px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+
+    &--small {
+      font-size: 21px;
+      max-width: 600px;
+      padding: 0 0 28px 0;
+      margin: 0 auto;
+    }
+  }
+
+  .topic-page__text {
+    width: 485px;
+    margin: 0 auto;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .topic-page {
+    padding-top: 86px;
+  }
+}

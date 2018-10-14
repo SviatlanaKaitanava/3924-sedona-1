@@ -23,3 +23,22 @@
   height: 58px;
   padding: 0 0 0 21px;
 }
+
+@media (min-width: 768px) {
+  .full-name {
+    order: 0;
+    border-left: 1px solid #dbdbdb;
+    padding: 35px 0 19px 58px;
+    margin-left: -1px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .full-name {
+    padding-left: 0;
+  }
+
+  .full-name__item {
+    padding-left: 80px;
+  }
+}

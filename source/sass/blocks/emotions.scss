@@ -17,3 +17,14 @@
   padding: 16px 20px;
   margin: 7px 0 40px 0;
 }
+
+@media (min-width: 768px) {
+  .emotions {
+    margin: 0;
+  }
+
+  .emotions__item {
+    width: 100%;
+    margin-top: 47px;
+  }
+}
