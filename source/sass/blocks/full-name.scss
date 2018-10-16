@@ -1,0 +1,44 @@
+.full-name__item {
+  margin: 10px 0 20px 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.full-name__text {
+  font-size: 14px;
+  line-height: 26px;
+  margin-right: 13px;
+}
+
+.full-name__field {
+  width: 100%;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: none;
+  border: none;
+  background-color: #f2f2f2;
+  height: 58px;
+  padding: 0 0 0 21px;
+}
+
+@media (min-width: 768px) {
+  .full-name {
+    order: 0;
+    border-left: 1px solid #dbdbdb;
+    padding: 35px 0 19px 58px;
+    margin-left: -1px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .full-name {
+    padding-left: 0;
+  }
+
+  .full-name__item {
+    padding-left: 80px;
+  }
+}

@@ -1,0 +1,85 @@
+.popup {
+  padding: 40px 0;
+  border-top: 1px solid #e5e5e5;
+  box-shadow: 0 10px 20px 10px #dfdfdf;
+  background-color: #ffffff;
+}
+
+.popup__title {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 700;
+  padding: 0 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.popup__text {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 25px 50px;
+  margin: 0;
+  text-align: center;
+}
+
+.popup__button {
+  border: none;
+  background-color: #81b3d2;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 20px;
+  min-width: 280px;
+
+  &--narrow {
+    min-width: 180px;
+  }
+}
+
+.popup__wrap-button {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .popup {
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px 60px;
+  }
+
+  .popup__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .popup__text {
+    padding: 25px 0;
+  }
+
+  .popup__button {
+    width: 100%;
+    font-size: 21px;
+  }
+
+  .popup-posted {
+    width: 640px;
+    padding: 62px 0 0 0;
+  }
+
+  .popup-posted__title {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .popup__wrap-button {
+    padding: 44px 91px;
+  }
+}

@@ -1,0 +1,29 @@
+.heading {
+  padding: 15px 25px 36px 25px;
+  text-align: center;
+}
+
+.heading__title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.heading__text {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 25px 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    width: 470px;
+    margin: 0 auto;
+    padding-top: 18px;
+  }
+
+  .heading__title {
+    font-size: 30px;
+  }
+}

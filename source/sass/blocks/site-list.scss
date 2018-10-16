@@ -1,0 +1,35 @@
+.site-list__item {
+  padding: 7px;
+  text-align: center;
+  border-top: 1px solid #9ac2db;
+  border-bottom: 1px solid #678fa8;
+
+  &:first-child {
+    border-top: none;
+    padding-top: 8px;
+  }
+
+  &:last-child {
+    border-bottom: 1px solid #6c96b0;
+  }
+}
+
+@media (min-width: 768px) {
+  .site-list__item {
+    border: none;
+    width: 20%;
+    padding: 15px;
+
+    &:first-child {
+      padding: 15px;
+    }
+
+    &:last-child {
+      border: none;
+    }
+
+    &:nth-child(2) {
+      margin-right: 20%;
+    }
+  }
+}

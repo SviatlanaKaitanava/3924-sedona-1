@@ -1,0 +1,63 @@
+.infrastructure {
+  list-style: none;
+  padding: 20px 0 20px 0;
+  margin: 0;
+}
+
+.infrastructure__item {
+  padding: 16px 20px 0 69px;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-position: 8% 8%;
+  background-size: 38px 38px;
+
+  &--housing {
+    background-image: url("../img/icon-house.svg");
+  }
+
+  &--souvenirs {
+    background-image: url("../img/icon-gift.svg");
+  }
+
+  &--food {
+    background-image: url("../img/icon-burger.svg");
+  }
+}
+
+@media (min-width: 768px) {
+  .infrastructure {
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  .infrastructure__item {
+    width: 33.333333%;
+    padding: 140px 45px 10px 45px;
+    background-position: center 40px;
+    text-align: center;
+
+    &--housing {
+      background-size: 75px 72px;
+    }
+
+    &--souvenirs {
+      order: 2;
+      background-size: 64px 75px;
+    }
+
+    &--food {
+      background-size: 77px 68px;
+      padding: 140px 50px 10px 50px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .infrastructure {
+    padding-bottom: 31px;
+  }
+
+  .infrastructure__item {
+    padding-bottom: 31px;
+  }
+}
