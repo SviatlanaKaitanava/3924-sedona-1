@@ -1,8 +1,16 @@
+.page-main {
+  margin-top: 3px;
+}
+
+.page-main__topic {
+  padding-top: 3px;
+}
+
 .page-main__welcome {
   background-image: url("../img/text-sedona-index.svg"), url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat, no-repeat;
-  background-position: center center, center top;
-  background-size: 90% auto, auto 389px;
+  background-position: center 51%, center top;
+  background-size: 88% auto, auto 389px;
   height: 389px;
 
   &::before {
@@ -23,7 +31,14 @@
   height: 350px;
 }
 
+.page-main__br {
+  display: none;
+}
 @media (min-width: 768px) {
+  .page-main {
+    margin-top: 0;
+  }
+
   .page-main__welcome {
     background-image: url("../img/text-sedona-index.svg"), url("../img/bg-back-tablet@1x.jpg");
     background-size: auto auto, auto 518px;
@@ -38,6 +53,10 @@
 
   .page-main__maps {
     background-image: url("../img/bg-map-tablet@1x.jpg");
+  }
+
+  .page-main__br {
+    display: block;
   }
 }
 

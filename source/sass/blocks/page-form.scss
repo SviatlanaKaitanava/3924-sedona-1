@@ -1,0 +1,16 @@
+.page-form {
+  padding-top: 3px;
+  padding-bottom: 1px;
+}
+
+@media (min-width: 768px) {
+  .page-form {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-form__topic {
+    padding-top: 87px;
+  }
+}

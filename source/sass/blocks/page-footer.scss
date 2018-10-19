@@ -1,6 +1,6 @@
 .page-footer {
   background-color: rgba(254, 254, 254, 0.9);
-  padding: 40px 20px 20px 20px;
+  padding: 36px 20px 20px 20px;
 }
 
 .page-footer__hash {
@@ -20,13 +20,14 @@
 
 @media (min-width: 768px) {
   .page-footer {
-    padding: 0;
+    padding: 36px 60px;
     display: flex;
     align-items: center;
   }
 
   .page-footer__hash {
     width: 33.333333%;
+    text-align: left;
   }
 
   .page-footer__social-list {
@@ -35,5 +36,11 @@
 
   .page-footer__copyright {
     width: 33.333333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-footer {
+    padding: 36px 120px;
   }
 }

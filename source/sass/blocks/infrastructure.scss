@@ -1,14 +1,14 @@
 .infrastructure {
   list-style: none;
-  padding: 20px 0 20px 0;
+  padding: 23px 0 24px 0;
   margin: 0;
 }
 
 .infrastructure__item {
-  padding: 16px 20px 0 69px;
+  padding: 14px 20px 0 69px;
   text-align: left;
   background-repeat: no-repeat;
-  background-position: 8% 8%;
+  background-position: 7% top;
   background-size: 38px 38px;
 
   &--housing {
@@ -21,43 +21,58 @@
 
   &--food {
     background-image: url("../img/icon-burger.svg");
+    background-position: 7% 8%;
   }
 }
 
 @media (min-width: 768px) {
   .infrastructure {
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 32px;
   }
 
   .infrastructure__item {
     width: 33.333333%;
-    padding: 140px 45px 10px 45px;
-    background-position: center 40px;
+    padding: 136px 45px 10px 45px;
     text-align: center;
 
     &--housing {
       background-size: 75px 72px;
+      background-position: 90px 37px;
     }
 
     &--souvenirs {
       order: 2;
       background-size: 64px 75px;
+      background-position: 95px 34px;
     }
 
     &--food {
       background-size: 77px 68px;
-      padding: 140px 50px 10px 50px;
+      background-position: 89px 40px;
+      padding: 136px 50px 10px 50px;
     }
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .infrastructure {
     padding-bottom: 31px;
   }
 
   .infrastructure__item {
     padding-bottom: 31px;
+
+    &--housing {
+      background-position: 161px 37px;
+    }
+
+    &--souvenirs {
+      background-position: 167px 34px;
+    }
+
+    &--food {
+      background-position: 161px 40px;
+    }
   }
 }
