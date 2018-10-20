@@ -1,3 +1,8 @@
+.page-photo {
+  margin-top: 3px;
+  margin-bottom: 4px;
+}
+
 .page-photo__item {
   padding: 22px 20px 17px 20px;
   border-top: 1px solid #e5e5e5;
@@ -5,8 +10,20 @@
   line-height: 24px;
 }
 
+.page-photo__list {
+  padding-top: 17px;
+}
+
 .page-photo__image {
   vertical-align: top;
+}
+
+.page-photo__image-link {
+  vertical-align: top;
+}
+
+.page-photo__image-sign {
+  padding-top: 7px;
 }
 
 .page-photo__image-name {
@@ -23,11 +40,12 @@
 .page-photo__like {
   border: none;
   width: 70px;
-  padding: 12px 0 0 34px;
+  padding: 12px 0 0 37px;
   background-image: url("../img/icon-like.svg");
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: left center;
   background-color: transparent;
+  text-align: left;
 }
 
 .page-photo__image-rating {
@@ -36,10 +54,15 @@
 
 .page-photo__box-video {
   border-top: 1px solid #e5e5e5;
-  padding-bottom: 37px;
+  padding-bottom: 35px;
 }
 
 @media (min-width: 768px) {
+  .page-photo {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   .page-photo__list {
     padding: 19px 60px;
     display: flex;
@@ -51,16 +74,20 @@
     border: none;
     width: 50%;
 
-    &:first-child {
+    &--full {
       width: 100%;
     }
   }
 
   .page-photo__image-sign {
     background-color: #f2f2f2;
-    margin-top: -7px;
-    padding: 16px 0 16px 20px;
-    position: relative;
+    padding: 16px 14px 16px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    &--gray {
+      background-color: #eaeaea;
+    }
   }
 
   .page-photo__image-name {
@@ -68,15 +95,13 @@
   }
 
   .page-photo__like {
-    padding-left: 25px;
-    position: absolute;
-    top: 23px;
-    right: 15px;
+    padding-left: 32px;
+    padding-top: 0;
   }
 
   .page-photo__box-video {
     border-top: none;
-    padding: 0 60px 42px 60px;
+    padding: 0 60px 40px 60px;
   }
 }
 
@@ -84,18 +109,22 @@
   .page-photo__topic {
     padding-top: 86px;
   }
-  
+
   .page-photo__list {
     padding: 22px 0;
   }
 
   .page-photo__item {
     width: 33.333333%;
+
+    &--full {
+      width: 100%;
+    }
   }
 
   .page-photo__image-sign {
     background-color: rgba(0, 0, 0, 0.3);
-    margin-top: -87px;
+    margin-top: -80px;
   }
 
   .page-photo__image-name,

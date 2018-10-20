@@ -1,7 +1,7 @@
 .social-list {
-  padding: 35px 5px;
   display: flex;
   justify-content: center;
+  padding: 36px 0 40px 0;
 }
 
 .social-list__item {
@@ -27,5 +27,11 @@
 
   &--youtube {
     background-image: url("../img/icon-youtube.svg");
+  }
+}
+
+@media (min-width: 768px) {
+  .social-list {
+    padding: 0;
   }
 }

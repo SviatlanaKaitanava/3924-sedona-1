@@ -43,7 +43,7 @@
         </section>
         <section class="page-form__topic topic-page">
           <p class="topic-page__title">Оставьте свой отзыв</p>
-          <p class="topic-page__text">Помогите нашим отелям тать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+          <p class="topic-page__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
         </section>
         <form class="feedback" method="get" action="https://echo.htmlacademy.ru">
           <fieldset class="feedback__item feedback__item--narrow full-name">
@@ -99,7 +99,7 @@
           </fieldset>
           <fieldset class="feedback__item box-select">
             <legend class="feedback__title">Посещенные достопримечательности:</legend>
-            <ul class="box-select__list">
+            <ul class="box-select__list box-select__list--full">
               <li class="box-select__item box-select__checkbox-wrap">
                 <label class="box-select__checkbox">
                   <input class="visually-hidden" type="checkbox" name="devils-bridge" checked>
@@ -135,12 +135,12 @@
             <span class="feedback__notes">* &ndash; Обязательные поля</span>
           </div>
         </form>
-        <section class="popup">
+        <section class="popup" style="display: none;">
           <h2 class="popup__title">Что-то пошло не так!</h2>
           <p class="popup__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
           <button class="popup__button popup__button--narrow" type="button">Ок</button>
         </section>
-        <section class="popup popup-posted">
+        <section class="popup popup-posted" style="display: none;">
           <h2 class="popup__title popup-posted__title">Ваш отзыв отправлен!</h2>
           <p class="popup__text">Спасибо за ваше участие, ваш отзыв уже поступил к нам.<br/>В ближайшее время мы опубликуем его на сайте.</p>
           <div class="popup__wrap-button">

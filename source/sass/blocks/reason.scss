@@ -4,12 +4,13 @@
   &::before {
     content: "";
     display: block;
-    height: 200px;
+    height: 60px;
+    background-color: #81b3d2;
     background-image: url("../img/bg-triangle.svg");
     background-repeat: no-repeat;
     background-position: left top;
     width: 100%;
-    margin-top: -20px;
+    margin-top: -5px;
     position: absolute;
   }
 }
@@ -28,6 +29,7 @@
 
   &--black {
     color: #000000;
+    margin-bottom: 12px;
   }
 }
 
@@ -35,6 +37,10 @@
   font-size: 14px;
   line-height: 21px;
   margin: 10px 0 15px 0;
+
+  &--margin {
+    margin: 10px 0 15px 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -65,10 +71,18 @@
     &--black {
       margin-bottom: 20px;
     }
+
+    &--narrow {
+      padding: 0 7px;
+    }
   }
 
   .reason__text {
     margin: 10px 0 20px 0;
+
+    &--narrow-gray {
+      margin: 10px 15px 20px 15px;
+    }
   }
 }
 
@@ -79,6 +93,20 @@
 
     &--black {
       margin-bottom: 20px;
+    }
+
+    &--narrow {
+      padding: 0 2px;
+    }
+  }
+
+  .reason__text {
+    &--narrow-blue {
+      margin: 10px 25px 20px 25px;
+    }
+
+    &--narrow-gray {
+      margin: 10px 25px 20px 25px;
     }
   }
 }

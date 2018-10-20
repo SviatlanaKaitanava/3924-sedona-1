@@ -1,6 +1,5 @@
 .topic-page {
   text-align: center;
-  padding-bottom: 15px;
 }
 
 .topic-page__title {
@@ -9,14 +8,14 @@
   font-weight: 700;
   color: #000000;
   margin: 0;
-  padding: 40px 27px 28px 27px;
+  padding: 38px 27px 28px 27px;
 }
 
 .topic-page__text {
   font-size: 14px;
   line-height: 24px;
   margin: 0;
-  padding: 0 25px 8px 25px;
+  padding: 0 20px 8px 20px;
 
   &--line-height {
     line-height: 26px;
@@ -47,7 +46,7 @@
     width: 485px;
     margin: 0 auto;
     padding-bottom: 0;
-    
+
     &--line-height {
       width: 100%;
     }

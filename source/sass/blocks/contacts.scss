@@ -1,5 +1,5 @@
 .contacts {
-  padding-bottom: 26px;
+  padding-bottom: 25px;
   margin-top: 15px;
 }
 
@@ -33,7 +33,7 @@
   margin: 7px 0 12px 0;
   background-color: #f2f2f2;
   background-repeat: no-repeat;
-  background-position: 93% center;
+  background-position: 92% center;
 
   &--phone {
     background-image: url("../img/icon-phone.svg");
@@ -46,8 +46,8 @@
 
 @media (min-width: 768px) {
   .contacts {
-    margin-top: 23px;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
+    margin-top: 12px;
   }
 
   .contacts__phone {
@@ -60,15 +60,19 @@
 }
 
 @media (min-width: 1200px) {
+  .contacts {
+    margin-top: 10px;
+  }
+
   .contacts__wrap {
     display: flex;
     justify-content: space-between;
-    margin-top: 55px;
+    margin-top: 57px;
   }
 
   .contacts__field {
     width: 316px;
-    background-position: 94% center;
+    background-position: 93% center;
   }
 
   .contacts__text {

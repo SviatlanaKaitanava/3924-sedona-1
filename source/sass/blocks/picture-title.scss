@@ -2,8 +2,7 @@
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
-  height: 158px;
-  padding-top: 52px;
+  padding-top: 50px;
 
   &::after {
     content: "";
@@ -14,7 +13,7 @@
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100% auto;
-    margin-top: 40px;
+    margin-top: 42px;
   }
 }
 

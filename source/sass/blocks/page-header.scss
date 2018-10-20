@@ -4,6 +4,10 @@
   margin: 0 auto -32px auto;
 }
 
+.page-header__logo-image {
+  vertical-align: top;
+}
+
 @media (min-width: 768px) {
   .page-header__logo {
     position: absolute;
