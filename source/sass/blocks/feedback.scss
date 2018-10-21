@@ -31,6 +31,17 @@
   width: 100%;
   padding: 16px 0;
   margin: 7px 0 0 -1px;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background-color: #5496bd;
+    color: rgba(255, 255, 255, 0.3);
+  }
 }
 
 .feedback__notes {
@@ -39,7 +50,7 @@
 
 @media (min-width: 768px) {
   .feedback {
-    padding: 14px 60px;
+    padding: 14px 7.7%;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 31px;
@@ -103,6 +114,6 @@
   }
 
   .feedback__send {
-    margin-bottom: 32px;
+    margin-bottom: 34px;
   }
 }

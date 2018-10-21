@@ -42,12 +42,22 @@
   &--email {
     background-image: url("../img/icon-mail.svg");
   }
+
+  &:hover {
+    background-color: #e5e5e5;
+  }
+
+  &:active,
+  &:focus {
+    background-color: #ffffff;
+    outline: 1px solid #e5e5e5;
+  }
 }
 
 @media (min-width: 768px) {
   .contacts {
     margin-bottom: 6px;
-    margin-top: 12px;
+    margin-top: 23px;
   }
 
   .contacts__phone {
@@ -61,7 +71,7 @@
 
 @media (min-width: 1200px) {
   .contacts {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .contacts__wrap {

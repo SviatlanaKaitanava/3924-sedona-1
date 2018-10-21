@@ -12,6 +12,15 @@
   &:last-child {
     border-bottom: 1px solid #6c96b0;
   }
+
+  &:hover {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background-color: #5496bd;
+    color: rgba(255, 255, 255, 0.3);
+  }
 }
 
 @media (min-width: 768px) {
@@ -30,6 +39,27 @@
 
     &:nth-child(2) {
       margin-right: 20%;
+    }
+
+    &:hover {
+      color: #81b3d2;
+      background-color: #ffffff;
+    }
+
+    &:active {
+      color: rgba(0, 0, 0, 0.3);
+    }
+
+    &--active {
+      color: #766357;
+
+      &:hover {
+        color: #604e43;
+      }
+
+      &:active {
+        color: rgba(118, 99, 87, 0.3);
+      }
     }
   }
 }

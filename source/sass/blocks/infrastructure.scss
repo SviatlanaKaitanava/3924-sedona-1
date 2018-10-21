@@ -45,12 +45,13 @@
       order: 2;
       background-size: 64px 75px;
       background-position: 95px 34px;
+      padding: 136px 5% 10px 5%;
     }
 
     &--food {
       background-size: 77px 68px;
       background-position: 89px 40px;
-      padding: 136px 50px 10px 50px;
+      padding: 136px 6.5% 10px 6.5%;
     }
   }
 }
@@ -73,6 +74,7 @@
 
     &--food {
       background-position: 161px 40px;
+      padding: 136px 50px 31px 50px;
     }
   }
 }

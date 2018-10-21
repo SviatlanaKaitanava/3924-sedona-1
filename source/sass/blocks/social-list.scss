@@ -11,22 +11,19 @@
 }
 
 .social-list__link {
-  display: block;
   background-color: #81b3d2;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  width: 46px;
   height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  &--twitter {
-    background-image: url("../img/icon-twitter.svg");
+  &:hover {
+    background-color: #669ec0;
   }
 
-  &--facebook {
-    background-image: url("../img/icon-facebook.svg");
-  }
-
-  &--youtube {
-    background-image: url("../img/icon-youtube.svg");
+  &:active path {
+    fill: rgba(255, 255, 255, 0.3);
   }
 }
 
