@@ -17,13 +17,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
 
   &:hover {
     background-color: #669ec0;
   }
 
-  &:active path {
-    fill: rgba(255, 255, 255, 0.3);
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
   }
 }
 
