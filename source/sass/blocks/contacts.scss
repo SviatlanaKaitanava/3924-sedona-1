@@ -38,7 +38,13 @@
     background-image: url("../img/phone.svg"), linear-gradient(to right, #f2f2f2 80%, #e6e6e6 20%);
 
     &:hover {
-      background-image: url("../img/phone.svg"), linear-gradient(to right, #e5e5e5 100%);
+      background-image: url("../img/phone.svg"), linear-gradient(to right, #e5e5e5 80%, #e6e6e6 20%);
+    }
+
+    &:active,
+    &:focus {
+      background-image: url("../img/phone.svg"), linear-gradient(to right, #ffffff 80%, #e6e6e6 20%);
+      outline: 1px solid #e5e5e5;
     }
   }
 
@@ -48,12 +54,12 @@
     &:hover {
       background-image: url("../img/mail.svg"), linear-gradient(to right, #e5e5e5 100%);
     }
-  }
 
-  &:active,
-  &:focus {
-    background-color: #ffffff;
-    outline: 1px solid #e5e5e5;
+    &:active,
+    &:focus {
+      background-image: url("../img/mail.svg"), linear-gradient(to right, #ffffff 80%, #e6e6e6 20%);
+      outline: 1px solid #e5e5e5;
+    }
   }
 }
 
@@ -72,10 +78,22 @@
 
     &--email {
       background-image: url("../img/mail.svg"), linear-gradient(to right, #f2f2f2 91%, #e6e6e6 9%);
+
+      &:active,
+      &:focus {
+        background-image: url("../img/mail.svg"), linear-gradient(to right, #ffffff 91%, #e6e6e6 9%);
+        outline: 1px solid #e5e5e5;
+      }
     }
 
     &--phone {
       background-image: url("../img/phone.svg"), linear-gradient(to right, #f2f2f2 91%, #e6e6e6 9%);
+
+      &:active,
+      &:focus {
+        background-image: url("../img/phone.svg"), linear-gradient(to right, #ffffff 91%, #e6e6e6 6%);
+        outline: 1px solid #e5e5e5;
+      }
     }
   }
 }
@@ -97,10 +115,22 @@
 
     &--email {
       background-image: url("../img/mail.svg"), linear-gradient(to right, #f2f2f2 82%, #e6e6e6 18%);
+
+      &:active,
+      &:focus {
+        background-image: url("../img/mail.svg"), linear-gradient(to right, #ffffff 82%, #e6e6e6 18%);
+        outline: 1px solid #e5e5e5;
+      }
     }
 
     &--phone {
       background-image: url("../img/phone.svg"), linear-gradient(to right, #f2f2f2 82%, #e6e6e6 18%);
+
+      &:active,
+      &:focus {
+        background-image: url("../img/phone.svg"), linear-gradient(to right, #ffffff 82%, #e6e6e6 18%);
+        outline: 1px solid #e5e5e5;
+      }
     }
   }
 
