@@ -33,11 +33,18 @@
   background-repeat: no-repeat;
   background-position: center top;
   height: 350px;
+  position: relative;
 
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     background-image: url("../img/bg-map-mobile@2x.jpg");
     background-size: 320px;
   }
+}
+
+.page-main__maps-marker {
+  position: absolute;
+  top: 161px;
+  left: 146px;
 }
 
 .page-main__br {
@@ -75,6 +82,11 @@
     }
   }
 
+  .page-main__maps-marker {
+    top: 164px;
+    left: 370px;
+  }
+
   .page-main__br {
     display: block;
   }
@@ -83,6 +95,7 @@
 @media (min-width: 1200px) {
   .page-main__welcome {
     background-image: url("../img/text-sedona-index.svg"), url("../img/bg-back-desktop@1x.jpg");
+    background-size: auto, 100%;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background-image: url("../img/text-sedona-index.svg"), url("../img/bg-back-desktop@2x.jpg");
@@ -101,5 +114,10 @@
       background-image: url("../img/bg-map-desktop@2x.jpg");
       background-size: 1200px;
     }
+  }
+
+  .page-main__maps-marker {
+    top: 162px;
+    left: 586px;
   }
 }

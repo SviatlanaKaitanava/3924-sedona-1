@@ -1,6 +1,10 @@
 .contacts {
-  padding-bottom: 25px;
-  margin-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 5px;
+}
+
+.contacts__wrap {
+  margin: 0 20px;
 }
 
 .contacts__phone {
@@ -65,12 +69,16 @@
 
 @media (min-width: 768px) {
   .contacts {
-    margin-bottom: 6px;
+    margin-bottom: 15px;
     margin-top: 23px;
   }
 
   .contacts__phone {
     margin: 14px 0 11px 0;
+  }
+
+  .contacts__wrap {
+    margin: 0;
   }
 
   .contacts__field {

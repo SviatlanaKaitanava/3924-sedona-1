@@ -1,12 +1,13 @@
 .feedback {
-  padding: 16px 20px;
-  margin-bottom: 20px;
+  padding-top: 7px;
+  margin-bottom: 36px;
 }
 
 .feedback__item {
   border: none;
   padding: 0;
   margin: 0;
+  position: relative;
 }
 
 .feedback__title {
@@ -14,9 +15,15 @@
   line-height: 26px;
   font-weight: 700;
   color: #000000;
-  padding: 10px 0;
+  padding: 18px 0 11px 0;
   margin: 0 auto;
   text-align: center;
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+}
+
+.feedback__send {
+  padding: 0 20px;
 }
 
 .feedback__button {
@@ -48,6 +55,10 @@
   display: none;
 }
 
+.feedback__send {
+  padding: 0 20px;
+}
+
 @media (min-width: 768px) {
   .feedback {
     padding: 14px 7.7%;
@@ -60,6 +71,7 @@
     font-size: 21px;
     padding: 10px 60px;
     width: 402px;
+    border: none;
 
     &--left {
       width: 100%;

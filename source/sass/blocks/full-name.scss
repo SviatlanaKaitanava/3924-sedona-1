@@ -1,7 +1,8 @@
 .full-name__item {
-  margin: 10px 0 20px 0;
+  margin: 10px 20px 20px 20px;
   display: flex;
   align-items: baseline;
+  overflow: hidden;
 }
 
 .full-name__text {
@@ -40,6 +41,10 @@
     border-left: 1px solid #dbdbdb;
     padding: 35px 0 19px 58px;
     margin-left: -1px;
+  }
+
+  .full-name__item {
+    margin: 10px 0 20px 0;
   }
 }
 
