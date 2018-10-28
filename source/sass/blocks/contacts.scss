@@ -30,7 +30,7 @@
   font-weight: 700;
   color: #000000;
   text-transform: none;
-  border: none;
+  border: 3px solid transparent;
   height: 58px;
   width: 100%;
   padding: 0 20px 0 21px;
@@ -43,12 +43,14 @@
 
     &:hover {
       background-image: url("../img/phone.svg"), linear-gradient(to right, #e5e5e5 80%, #e6e6e6 20%);
+      border: 3px solid #e6e6e6;
     }
 
     &:active,
     &:focus {
       background-image: url("../img/phone.svg"), linear-gradient(to right, #ffffff 80%, #e6e6e6 20%);
       outline: 1px solid #e5e5e5;
+      border: 3px solid #e5e5e5;
     }
   }
 
@@ -57,12 +59,14 @@
 
     &:hover {
       background-image: url("../img/mail.svg"), linear-gradient(to right, #e5e5e5 100%);
+      border: 3px solid #e6e6e6;
     }
 
     &:active,
     &:focus {
       background-image: url("../img/mail.svg"), linear-gradient(to right, #ffffff 80%, #e6e6e6 20%);
       outline: 1px solid #e5e5e5;
+      border: 3px solid #e5e5e5;
     }
   }
 }

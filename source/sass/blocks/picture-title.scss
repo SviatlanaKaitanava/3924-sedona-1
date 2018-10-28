@@ -1,4 +1,5 @@
 .picture-title {
+  background-color: #4b616f;
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -13,12 +14,12 @@
     content: "";
     display: block;
     width: 320px;
-    height: 26px;
+    height: 27px;
     background-image: url("../img/bg-intro-triangle-mobile.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100% auto;
-    margin-top: 42px;
+    margin-top: 41px;
   }
 }
 
